@@ -22,7 +22,7 @@
 <body>
     <header class="container mx-auto">
         <nav>
-            <div class="navbar  my-12 rounded-[600px] bg-[#F85559] py-8 px-14">
+            <div class="navbar  my-12 rounded-[600px] lg:bg-[#F85559] py-8 px-14">
                 <div class="sm:space-x-reverse">
                   <div class="dropdown ">
                     <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -47,7 +47,7 @@
                 </div>
                 <div class="flex gap-2 mx-auto">
                     <img src="images/logo.png" alt="">
-                    <h2 class="text-4xl font-semibold text-white flex">Fruit Burst</h2>
+                    <h2 class="text-4xl font-semibold lg:text-white flex">Fruit Burst</h2>
                 </div>
                 <div class=" hidden lg:flex">
                     <input type="text" placeholder="Search Here" class="input input-bordered rounded-[50px] md:w-auto" />
@@ -116,9 +116,9 @@
        </div>
        </section>
        <!-- Fruit List -->
-       <Section>
-        <div class="relative w-[1196px] mx-auto bg-white rounded-lg lg:-my-[100px]">
-           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 mx-auto space-x-[96px] py-12 px-16">
+       <Section class="">
+        <div class="relative   w-[1196px] mx-auto bg-white rounded-lg lg:-my-[100px]">
+           <div class="flex invisible lg:visible mx-auto gap-20 py-12 px-16">
             <div>
               <img class="w-36 h-28" src="images/fruit1.png" alt="">
               <p class="text-xl font-medium text-center">Strawberry</p>
@@ -137,19 +137,19 @@
             </div>
             <div>
               <img class="w-36 h-28" src="images/fruit5.png" alt="">
-              <p class="text-xl font-medium text-center">Mango</p>
+              <p class="text-xl font-medium text-center">Promegranate</p>
             </div>
            </div>
         </div>
        </Section>
        <!-- Card heading section -->
        <section class="my-40">
-          <div class="flex flex-col lg:flex-row justify-between">
+          <div class="flex flex-col lg:flex-row lg:justify-between">
               <div class="space-y-[24px]">
-                  <h3 class="text-5xl font-extrabold">Deal of the day</h3>
-                  <p class="font-medium">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
+                  <h3 class="text-3xl  lg:text-5xl text-center lg:text-left font-extrabold">Deal of the day</h3>
+                  <p class="font-medium text-center lg:text-left">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
               </div>
-              <div class="flex gap-16">
+              <div class="flex gap-6 lg:gap-16">
                   <div class="space-y-[8px]">
                     <h1 class="text-5xl font-extrabold">29</h1>
                     <p class="font-medium text-center">Days</p>
@@ -296,11 +296,11 @@
             <div class="max-w-md">
               <h1 class="mb-5 text-5xl text-white font-extrabold">Meet the team section</h1>
               <p class="mb-5 font-medium text-white">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
-              <div class="flex gap-32 justify-center ">
+              <div class="flex flex-col lg:flex-row gap-32 justify-center ">
                 
                   <!-- man 1 -->
                         <div>
-                          <img class="w-40 h-32" src="images/member1.png" alt="">
+                          <img class="w-40 h-32 " src="images/member1.png" alt="">
                           <h4 class="text-2xl font-bold text-white mt-14">Awlad Hossain</h4>
                           <p class="font-medium text-white">Fruits Expert</p>
                             <div class="space-x-1">
@@ -350,10 +350,10 @@
        <section class="my-32">
           <h3 class="text-5xl font-extrabold mb-6 text-center">Why Choose Us</h3>
           <p class="font-medium text-center w-[615px] mx-auto">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
-            <div class="my-12 flex gap-12">
+            <div class="my-12 flex flex-col lg:flex-row gap-9">
               <div>
-                  <div class="flex space-x-[24px] mb-11">
-                    <div class="flex justify-center items-center btn-circle bg-gray-300 mt-7">
+                  <div class="flex flex-col lg:flex-row space-x-[24px] mb-11">
+                    <div class="flex flex-col lg:flex-row justify-center items-center btn-circle bg-gray-300 mt-7">
                       <i class="fa-solid fa-people-group"></i>
                     </div>
                     <div class="space-y-[8px]">
@@ -363,8 +363,8 @@
                     </div>
                   </div>
 
-                  <div class="flex space-x-[24px] mb-11">
-                    <div class="flex justify-center items-center btn-circle bg-gray-300 mt-7">
+                  <div class="flex flex-col lg:flex-row space-x-[24px] mb-11">
+                    <div class="flex flex-col lg:flex-row justify-center items-center btn-circle bg-gray-300 mt-7">
                       <i class="fa-regular fa-heart"></i>
                     </div>
                     <div class="space-y-[8px]">
@@ -374,8 +374,8 @@
                     </div>
                   </div>
 
-                  <div class="flex space-x-[24px] mb-11">
-                    <div class="flex justify-center items-center btn-circle bg-gray-300 mt-7">
+                  <div class="flex flex-col lg:flex-row space-x-[24px] mb-11">
+                    <div class="flex flex-col lg:flex-row justify-center items-center btn-circle bg-gray-300 mt-7">
                       <i class="fa-solid fa-gift"></i>
                     </div>
                     <div class="space-y-[8px]">
@@ -386,40 +386,40 @@
                   </div>
 
               </div>
-              <div class="w-[464px] h-[414px]">
+              <div class="w-[584px] h-[414px] flex ">
                   <img src="images/whychoose1.png" alt="">
               </div>
               <div>
                 <div>
-                  <div class="flex space-x-[24px] mb-11">
+                  <div class="flex flex-col lg:flex-row space-x-[24px] mb-11">
                     <div class="space-y-[8px]">
                       <h4 class="text-2xl font-extrabold text-right">Integrated Supplier</h4>
-                      <div class="border-b-2 border-gray-500 w-[120px]"></div>
-                      <p class="font-medium text-right">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                      <div class="border-b-2 border-gray-500 w-[120px] ml-96"></div>
+                      <p class="font-medium text-right ">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
                     </div>
                     <div class="flex justify-center items-center btn-circle bg-gray-300 mt-7">
                       <i class="fa-solid fa-apple-whole"></i>
                     </div>
                   </div>
 
-                  <div class="flex space-x-[24px] mb-11">
+                  <div class="flex flex-col lg:flex-row space-x-[24px] mb-11">
                     <div class="space-y-[8px]">
                       <h4 class="text-2xl font-extrabold text-right">Sustainable Practice</h4>
-                      <div class="border-b-2 border-gray-500 w-[120px]"></div>
+                      <div class="border-b-2 border-gray-500 w-[120px] ml-96"></div>
                       <p class="font-medium text-right">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
                     </div>
-                    <div class="flex justify-center items-center btn-circle bg-gray-300 mt-7">
+                    <div class="flex flex-col lg:flex-row justify-center items-center btn-circle bg-gray-300 mt-7">
                       <i class="fa-solid fa-ice-cream"></i>
                     </div>
                   </div>
 
-                  <div class="flex space-x-[24px] mb-11">
+                  <div class="flex flex-col lg:flex-row space-x-[24px] mb-11">
                     <div class="space-y-[8px]">
                       <h4 class="text-2xl font-extrabold text-right">The Benefits Only</h4>
-                      <div class="border-b-2 border-gray-500 w-[120px] "></div>
+                      <div class="border-b-2 border-gray-500 w-[120px] ml-96 "></div>
                       <p class="font-medium text-right">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
                     </div>
-                    <div class="flex justify-center items-center btn-circle bg-gray-300 mt-7">
+                    <div class="flex flex-col lg:flex-row justify-center items-center btn-circle bg-gray-300 mt-7">
                       <i class="fa-solid fa-thumbs-up"></i>
                     </div>
                   </div>
@@ -430,7 +430,32 @@
        </section>
     </main>
     <footer>
-
+      <footer class="footer footer-center p-10 bg-[#121212] text-primary-content">
+        <div>
+          <div class="flex gap-3">
+            <img class="w-[54px] h-[60px]" src="images/logo.png" alt="">
+            <h3 class="text-white font-bold text-[40px] mt-5">Fruit Burst</h3>
+          </div>
+            <div class="grid grid-cols-4 lg:grid-cols-6 gap-8  lg:gap-16 mt-14">
+              <a href="#"><p class="lg:text-[18px] lg:font-semibold text-white">Home</p></a>
+              <a href="#"><p class="lg:text-[18px] lg:font-semibold text-white">About Us</p></a>
+              <a href="#"><p class="lg:text-[18px] lg:font-semibold text-white">Shop</p></a>
+              <a href="#"><p class="lg:text-[18px] lg:font-semibold text-white">All Fruits</p></a>
+              <a href="#"><p class="lg:text-[18px] lg:font-semibold text-white">Support</p></a>
+              <a href="#"><p class="lg:text-[18px] lg:font-semibold text-white">My Account</p></a>
+            </div>
+          </div> 
+        <div>
+          <div class="grid grid-flow-col gap-10">
+          <a href="#"><img class="w-10 h-10" src="images/twiter.png" alt=""></a>
+          <a href="#"><img class="w-10 h-10" src="images/fb.png" alt=""></a>
+          <a href="#"><img class="w-10 h-10" src="images/yticon.png" alt=""></a>
+          <a href="#"><img class="w-10 h-10" src="images/linkdin.png" alt=""></a>
+          <a href="#"><img class="w-10 h-10" src="images/instra.png" alt=""></a>
+          <a href="#"><img class="w-10 h-10" src="images/apple.png" alt=""></a>
+          </div>
+        </div>
+      </footer>
     </footer>
 </body>
 </html>
